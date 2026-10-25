@@ -1,0 +1,12 @@
+{
+  "description": "refuses a setAdmin numbered at or below the last applied, as one delivered after a newer one",
+  "channel": "instruction",
+  "opType": "SECRETS",
+  "opCommand": "SET_ADMIN",
+  "message": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000703c4b2bd70c169f5717101caee543299fc946c7",
+  "result": {
+    "status": 0,
+    "log": "error: nonce not above the last",
+    "data": "0x"
+  }
+}

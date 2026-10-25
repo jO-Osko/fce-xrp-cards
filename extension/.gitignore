@@ -1,0 +1,17 @@
+.env
+.vscode/
+.idea/
+*.out
+*.test
+go.work
+go.work.sum
+
+# foundry
+out/
+cache/
+broadcast/
+dependencies/
+**/contracts/deployments/
+
+# fce's deployment records on an anvil fork
+**/deployments/anvil-*.json

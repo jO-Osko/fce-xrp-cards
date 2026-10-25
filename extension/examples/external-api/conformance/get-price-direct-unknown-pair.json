@@ -1,0 +1,12 @@
+{
+  "description": "refuses a pair the extension doesn't price, at once",
+  "channel": "direct",
+  "opType": "PRICES",
+  "opCommand": "GET_PRICE_DIRECT",
+  "message": "0x7b2270616972223a22444f47452f555344227d",
+  "result": {
+    "status": 0,
+    "log": "error: unknown pair",
+    "data": "0x"
+  }
+}

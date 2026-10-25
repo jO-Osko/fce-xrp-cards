@@ -1,0 +1,28 @@
+{
+  "name": "xrpl-credit-card-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ../scripts/sync-config.mjs && next dev --port 3000",
+    "build": "node ../scripts/sync-config.mjs && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "sync-config": "node ../scripts/sync-config.mjs"
+  },
+  "dependencies": {
+    "@ledgerhq/hw-app-xrp": "6.38.0",
+    "@ledgerhq/hw-transport-webhid": "6.36.0",
+    "@tanstack/react-query": "^5.100.7",
+    "buffer": "6.0.3",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.33.0"
+}

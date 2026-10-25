@@ -1,0 +1,53 @@
+version: "2"
+run:
+  go: "1.26.9"
+  modules-download-mode: readonly
+linters:
+  default: standard
+  enable:
+    - asciicheck
+    - bidichk
+    - bodyclose
+    - containedctx
+    - copyloopvar
+    - decorder
+    - errchkjson
+    - errname
+    - exhaustive
+    - exptostd
+    - forcetypeassert
+    - misspell
+    - nolintlint
+    - unconvert
+    - whitespace
+
+    - modernize
+    - thelper
+    - usestdlibvars
+    - usetesting
+    - unparam
+    - predeclared
+    - prealloc
+
+  settings:
+    exhaustive:
+      default-signifies-exhaustive: true
+    nolintlint:
+      require-specific: true
+  exclusions:
+    generated: lax
+    # regexes on file paths, so match the directory, not a path end
+    paths:
+      - (^|/)third_party/
+      - (^|/)builtin/
+formatters:
+  enable:
+    - gofmt
+  exclusions:
+    generated: lax
+    paths:
+      - (^|/)third_party/
+      - (^|/)builtin/
+
+issues:
+  max-same-issues: 3

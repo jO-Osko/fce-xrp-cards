@@ -1,0 +1,17 @@
+{
+  "description": "sets the admin, as the contract's first setAdmin sends it; sent again, it is refused, as an instruction delivered again",
+  "channel": "instruction",
+  "opType": "SECRETS",
+  "opCommand": "SET_ADMIN",
+  "message": "0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000071562b71999873db5b286df957af199ec94617f7",
+  "result": {
+    "status": 1,
+    "log": "ok",
+    "data": "0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000071562b71999873db5b286df957af199ec94617f7"
+  },
+  "again": {
+    "status": 0,
+    "log": "error: nonce not above the last",
+    "data": "0x"
+  }
+}

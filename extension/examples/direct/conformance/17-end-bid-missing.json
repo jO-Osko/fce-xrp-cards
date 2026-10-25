@@ -1,0 +1,12 @@
+{
+  "description": "refuses to end round 1 without bid 5, as one withheld, lost or still on its way",
+  "channel": "instruction",
+  "opType": "AUCTION",
+  "opCommand": "END",
+  "message": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000005",
+  "result": {
+    "status": 0,
+    "log": "error: bid 5 missing",
+    "data": "0x"
+  }
+}

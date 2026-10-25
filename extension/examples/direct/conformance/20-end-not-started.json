@@ -1,0 +1,12 @@
+{
+  "description": "refuses to end a round whose start hasn't arrived",
+  "channel": "instruction",
+  "opType": "AUCTION",
+  "opCommand": "END",
+  "message": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000",
+  "result": {
+    "status": 0,
+    "log": "error: round not started",
+    "data": "0x"
+  }
+}

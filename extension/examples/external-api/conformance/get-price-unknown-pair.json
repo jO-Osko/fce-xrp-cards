@@ -1,0 +1,12 @@
+{
+  "description": "refuses a pair the extension doesn't price, at once",
+  "channel": "instruction",
+  "opType": "PRICES",
+  "opCommand": "GET_PRICE",
+  "message": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000008444f47452f555344000000000000000000000000000000000000000000000000",
+  "result": {
+    "status": 0,
+    "log": "error: unknown pair",
+    "data": "0x"
+  }
+}

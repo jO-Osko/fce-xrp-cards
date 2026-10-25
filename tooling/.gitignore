@@ -1,0 +1,7 @@
+.env
+.vscode/
+.idea/
+*.out
+*.test
+go.work
+go.work.sum

@@ -1,0 +1,12 @@
+{
+  "description": "refuses a field the command doesn't define",
+  "channel": "direct",
+  "opType": "PRICES",
+  "opCommand": "GET_PRICE_DIRECT",
+  "message": "0x7b2270616972223a224254432f555344222c226578747261223a317d",
+  "result": {
+    "status": 0,
+    "log": "error: invalid payload",
+    "data": "0x"
+  }
+}

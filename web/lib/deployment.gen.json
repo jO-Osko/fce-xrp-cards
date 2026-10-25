@@ -1,0 +1,58 @@
+{
+  "_generated": "by scripts/sync-config.mjs; do not edit",
+  "xrpl": {
+    "network": {
+      "name": "XRPL Devnet",
+      "ws": "wss://s.devnet.rippletest.net:51233",
+      "rpc": "https://s.devnet.rippletest.net:51234",
+      "explorerTx": "https://devnet.xrpl.org/transactions",
+      "explorerAccount": "https://devnet.xrpl.org/accounts",
+      "xamanNetwork": "DEVNET"
+    },
+    "depositAccount": "rMWf1iV23psKYGhgryi5sqSsV1VqterU1o",
+    "settlementAddress": "rLYMzJTdCNBgSuifYby1QNnMcWFhyi9dEU",
+    "poolAddress": "rfuCZHUNabMuXdVGYA426iAwVtj6CSpHxf",
+    "rlusd": {
+      "currency": "524C555344000000000000000000000000000000",
+      "issuer": "rB7u423MU9E91BjZbFskom8nBdJTDnVBp1"
+    },
+    "sourceTag": 2610250019
+  },
+  "lending": {
+    "creditServer": "ravJ365UCvrpqSGzbGf4XpCK7pBQkbsWEQ",
+    "broker": "rEiqqEKgTuRS239uLq7Gu92RY7BJdHzHkn",
+    "vaultId": "E2586978D3BF5FD17E81B85238A5A74826B88DD2EC5D8CFD8EB192142D82FD19",
+    "loanBrokerId": "EF123FC1E1D8C9C8E9D99FB38D9418F4A3CE28F25C0D127ACBB5DCC9BF74BDBD",
+    "terms": {
+      "interestRate": 10000,
+      "paymentTotal": 12,
+      "paymentInterval": 2592000,
+      "gracePeriod": 604800
+    },
+    "subscriptionDate": 846194133,
+    "redemptionDate": 1003874133
+  },
+  "vault": {
+    "lpDepositAccount": "r4wsNFyZXqUT7JjC5cFCrYmHX8vGWdtYgr",
+    "treasuryAccount": "rN3f6J4buS9DU4bD2swsfXm8y5pobsjkaZ",
+    "operatorAccount": "rMhRYmszAoKtQrXH3Qj3dRa1FtRpte7Yep",
+    "shareCurrency": "58434C5000000000000000000000000000000000",
+    "shareCode": "XCLP"
+  },
+  "fcc": {
+    "chain": "coston2",
+    "chainId": 0,
+    "extensionId": 0,
+    "instructionSender": "",
+    "flareTeeManager": "",
+    "deployer": "",
+    "registerTx": "",
+    "version": "",
+    "teeId": "",
+    "proxyId": "",
+    "machineRegisterTx": "",
+    "productionTx": "",
+    "tunnelUrl": "",
+    "proxyUrl": ""
+  }
+}

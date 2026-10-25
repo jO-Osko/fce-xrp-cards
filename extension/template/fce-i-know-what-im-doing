@@ -1,0 +1,3 @@
+CARD ledger fixtures: unknown-fields re-sends of RESERVE and CONVERT_REQUEST
+mutate balances / open another conversion (recommendation only). Required checks pin the post-recommendation
+state. Direct-only extension; InstructionSender has no on-chain CARD commands.

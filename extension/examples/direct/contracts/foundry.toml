@@ -1,0 +1,37 @@
+# The direct example's contracts. Each extension is its own Foundry project; sol/ is the shared base.
+[profile.default]
+src = "src"
+test = "test"
+script = "script"
+out = "out"
+libs = ["dependencies"]
+solc = "0.8.36"
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 200
+remappings = [
+    "@openzeppelin-contracts/=dependencies/@openzeppelin-contracts-5.7.0/",
+    "fcc-extension-scaffold/=../../../sol/",
+    "flare-periphery/=dependencies/flare-periphery-0.1.53/",
+    "forge-std/=dependencies/forge-std-1.17.0/",
+]
+allow_paths = ["../../../sol"]
+fs_permissions = [
+    # the conformance fixtures double as the Go-Solidity payload vectors
+    { access = "read", path = "../conformance" },
+    { access = "read-write", path = "./deployments" },
+]
+
+[fmt]
+# Flare's style: import { X }
+bracket_spacing = true
+
+[soldeer]
+# stable import names: a version bump touches only this file and soldeer.lock
+remappings_version = false
+remappings_location = "config"
+
+[dependencies]
+"@openzeppelin-contracts" = "5.7.0"
+flare-periphery = "0.1.53"
+forge-std = "1.17.0"

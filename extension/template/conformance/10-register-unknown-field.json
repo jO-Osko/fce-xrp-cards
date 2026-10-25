@@ -1,0 +1,12 @@
+{
+  "description": "refuses a field the command doesn't define",
+  "channel": "direct",
+  "opType": "CARD",
+  "opCommand": "REGISTER",
+  "message": "0x7b227872706c41646472657373223a22724f74686572222c226578747261223a317d",
+  "result": {
+    "status": 0,
+    "log": "error: invalid payload",
+    "data": "0x"
+  }
+}

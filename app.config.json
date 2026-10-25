@@ -1,0 +1,4 @@
+{
+  "_about": "App-wide settings, read by scripts/sync-config.mjs (which copies them into watcher/.env and web/lib/deployment.gen.json) and by the watcher's setup scripts.",
+  "xrplSourceTag": 2610250019
+}

@@ -1,0 +1,22 @@
+{
+  "name": "xrpl-credit-card-watcher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ../scripts/sync-config.mjs && node --env-file-if-exists=.env src/index.js",
+    "settle": "node ../scripts/sync-config.mjs && node --env-file-if-exists=.env src/settle.js",
+    "fund-wallets": "node src/fund-wallets.js",
+    "sync-config": "node ../scripts/sync-config.mjs",
+    "mint-rlusd": "node --env-file-if-exists=.env src/mint-rlusd.js",
+    "demo-user": "node --env-file-if-exists=.env src/demo-user.js",
+    "setup-lending": "node src/setup-lending.js",
+    "setup-vault": "node src/setup-vault.js",
+    "demo-lp": "node --env-file-if-exists=.env src/demo-lp.js"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "xrpl": "^4.4.1",
+    "ripple-keypairs": "^2.1.0"
+  }
+}

@@ -1,0 +1,29 @@
+.env*
+*.env
+!.env.example
+!web/.env.example
+!watcher/.env.example
+
+# Swell demo local artifacts
+watcher/node_modules/
+# Wallets (seeds) and every state file the watcher writes; keep its package files.
+watcher/*.json
+!watcher/package.json
+!watcher/package-lock.json
+watcher/archive/
+web/node_modules/
+web/.next/
+web/tsconfig.tsbuildinfo
+# The web app uses pnpm (pnpm-lock.yaml).
+web/package-lock.json
+.pnpm-store/
+
+# Go / OS
+.DS_Store
+*.exe
+/tmp/
+
+# Scaffold / tooling local build outputs (if any)
+scaffold/out/
+tooling/bin/
+**/deployments/

@@ -1,0 +1,12 @@
+{
+  "description": "refuses a missing xrplAddress",
+  "channel": "direct",
+  "opType": "CARD",
+  "opCommand": "REGISTER",
+  "message": "0x7b7d",
+  "result": {
+    "status": 0,
+    "log": "error: xrplAddress required (classic address starting with r)",
+    "data": "0x"
+  }
+}
